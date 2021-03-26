@@ -10,7 +10,7 @@ function myFn() {
         var c = document.getElementById("sharetxt");
         c.innerHTML = "I'm " + b + " please open this 👉 " + a;
         var t = "I'm " + b + " please open this 👉 " + a;
-        alert("Copy below link to share with your friends: " +t);
+        window.prompt("Copy below link to share with your friends: ", t);
         console.log("c", c);
     }
 }
