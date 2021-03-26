@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 35px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+* .wishText {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  animation: wishText 2000ms linear 0s infinite;
+}
+
+@keyframes wishText {
+  0% {
+    color: #f00;
+  }
+  10% {
+    color: #ff0;
+  }
+  20% {
+    color: #fff;
+  }
+  30% {
+    color: #0f0;
+  }
+  40% {
+    color: #ff0;
+  }
+  50% {
+    color: #0ff;
+  }
+  60% {
+    color: #fff;
+  }
+  70% {
+    color: #00f;
+  }
+  80% {
+    color: #f0f;
+  }
+  90% {
+    color: #ff0;
+  }
+  100% {
+    color: #fff;
+  }
+}
+
+* .wishing {
+  font-family: 'Roboto', sans-serif;
+  background: -webkit-linear-gradient(#eee, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* .red {
+  color: red;
+}
+
+* .black {
+  color: #000000;
+}
+
+* .green {
+  color: green;
+}
+
+* .blue {
+  color: blue;
+}
+
+* p {
+  text-align: center;
+}
+
+.main {
+  width: 500px;
+  height: 120vh;
+  background-color: #eaf2ff;
+  display: block;
+  margin: 0 auto;
+}
+
+.main .child {
+  margin: 5px;
+  height: 100%;
+  box-shadow: 0 0 10px #dddddd;
+}
+
+.main .child img {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.main .child .eid {
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.main .child .deepshadow {
+  color: peru;
+  letter-spacing: .1em;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
+
+.main .child .content span {
+  font-size: 17px !important;
+}
+
+.main .child .ad {
+  width: 100%;
+  height: 100px;
+}
+
+.name {
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.name input,
+.name .btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.name input {
+  padding: 0px;
+  width: 450px;
+  border-radius: 5px;
+  background-color: aquamarine;
+  font-size: 30px;
+}
+
+.name input:focus {
+  outline: none;
+}
+
+.name .btn {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  background: none;
+  background-color: antiquewhite;
+  border: 1px solid #cccccc;
+  box-shadow: 5px 5px #121212;
+}
+
+.name .btn:focus {
+  outline: none;
+  background-color: #0f0;
+  box-shadow: none;
+}
+
+.name .btn:actve {
+  background-color: #0f0;
+}
+
+.name #share {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.name #share p {
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.name #sharetxt {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #ccc;
+  border: 1px solid #000000;
+  -moz-box-shadow: inset 0 0 5px #000000;
+  -webkit-box-shadow: inset 0 0 5px #000000;
+  box-shadow: inset 0 0 5px #000000;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+}
+/*# sourceMappingURL=style.css.map */
